@@ -1,0 +1,94 @@
+.spotlight-component{
+  
+
+    padding-bottom: 2rem;
+    
+    max-width:1700px;
+    position: absolute;
+    top:27px;
+    z-index: 3;
+    background-color: #fff;
+    border:1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    transition: all 0.2s ease-in-out;
+    /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
+   
+}
+.spotlight-content{
+    max-height:200px;
+    max-width:475px;
+    overflow: hidden;
+}
+
+.spotlight-wrapper{
+    position: relative;
+    min-height:450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spotlight-container{
+    display: flex;
+    margin:1rem 1rem;
+    padding:2rem 4rem;
+}
+
+.flower-computer-row{
+    margin:1rem 1rem;
+    padding:2rem 4rem;
+}
+.flower-computer{
+    width:600px;
+    border:1px solid black;
+}
+@media (max-width:1450px){
+    .spotlight-component{
+        max-width: 1200px;
+    }
+
+    .flower-computer{
+        width:300px;
+    }
+    .spotlight-wrapper{
+        min-height:450px;
+    }
+}
+@media (max-width:1250px) {
+  
+    .flower-computer-row{
+        display: none;
+    }
+  
+    .flower-computer{
+        width:450px;
+    }
+}
+
+@media (max-width:1150px){
+    .spotlight-component{
+        flex-direction: column;
+       
+    }
+
+    .spotlight-wrapper{
+        min-height: 875px;
+    }
+   
+}
+
+@media (max-width:700px){
+    .spotlight-component{
+        top:10px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .spotlight-container{    
+        width:450px;
+    }
+    .flower-computer{
+        width:375px;
+    }
+
+}

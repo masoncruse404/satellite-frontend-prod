@@ -1,0 +1,40 @@
+
+.nav-link-item{
+    font-size:1.3em;
+    text-decoration: none;
+    color:black;
+}
+
+.nav-link-item:hover{
+    border-bottom:1px solid black;
+   
+}
+
+.nav-logo-link{
+    text-decoration: none;
+  
+    color:black;
+    font-size: 1.6em;
+}
+
+.nav-logo-text{
+    font-family: fantasy;
+    font-style: italic; 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-weight:700;
+}
+
+.bg-light-nav {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+
+@media (max-width: 1250px) {
+    .nav-logo-text{
+        display: none;
+    }
+  
+    
+}

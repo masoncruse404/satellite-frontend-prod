@@ -1,0 +1,61 @@
+.comment-reply{
+    display:block;
+}
+.comment-reply-sm{
+    display:none;
+}
+.reply-con-mob{
+    display: none;
+}
+
+.cp{
+    cursor: pointer;
+}
+.has-reply-con{
+    padding: 5px 5px;
+}
+.reply-danger:hover{
+    background-color: rgba(255,0,0,.3);
+    border-radius:5px;
+}
+.reply-danger{
+    padding: 5px 5px;
+}
+.reply-primary{
+    padding: 5px 5px;
+}
+.reply-primary:hover{
+    background-color: rgba(0, 132, 255, 0.2);
+    border-radius:5px;
+}
+
+.reply-success{
+    padding: 5px 5px;
+}
+.reply-success:hover{
+    background-color: rgba(60, 179, 113,.3);
+    border-radius:5px;
+}
+@media(max-width: 450px) {
+    .comment-reply{
+       display:none;
+    }
+    .comment-reply-sm{
+        display:block;
+    }
+  
+}
+
+@media(max-width: 950px){
+    .reply-con{
+        display: none;
+    }
+    .reply-con-mob{
+        display: block;
+    }
+    .sub-comment{
+        margin-left:0;
+        margin-right:0;
+    }
+}
+

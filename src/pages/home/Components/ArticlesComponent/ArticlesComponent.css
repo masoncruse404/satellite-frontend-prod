@@ -1,0 +1,53 @@
+.article-content{
+    max-height: 175px;
+    min-height: 100px;
+    margin-bottom:2rem;
+}
+
+.feature-articles{
+    text-shadow: 0 0 black;
+
+}
+.article{
+    margin-bottom:1rem;
+}
+.article-title {
+    max-height: 35px;
+    overflow: hidden;
+    font-weight: 700;
+    font-size:1.5em;
+    margin-bottom: .5rem;
+}
+.article-wrapper{
+    background:#fff;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    border-radius:10px;
+    max-height:540px;
+    max-width:500px;
+    padding:30px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    transition: all 0.2s ease-in-out;
+}
+
+.article-img{
+    fill:#0d6efd;
+}
+
+.article-wrapper:hover{
+    transform:scale(1.02);
+    transition: all 0.2s ease-in-out;
+
+}
+
+
+.author-date{
+    color:grey;
+}
+
+@media (max-width:900px) {
+    .article-title{
+        max-height:30px;
+    }
+}

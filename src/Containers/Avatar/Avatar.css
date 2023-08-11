@@ -1,0 +1,25 @@
+.userNav{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: white;
+    margin-right: 30px;;
+    border-radius:5px;
+    width:150px;
+    z-index: 4;
+}
+
+.btn-hover:hover{
+    background-color: grey;;
+}
+.margin-fix{
+    margin-right:1rem;
+}
+
+.no-decoration{
+    text-decoration: none;
+}
+
+.link-secondary{
+    cursor: pointer;
+}

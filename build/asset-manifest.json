@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.78cce67d.css",
+    "main.js": "/static/js/main.c6bf2523.js",
+    "static/media/work.jpg": "/static/media/work.ea9645183c73d486dc2e.jpg",
+    "static/media/solder.jpg": "/static/media/solder.df582a103f958c8b9701.jpg",
+    "static/media/nurse.jpg": "/static/media/nurse.03b87a3cfe85e3bbb797.jpg",
+    "static/media/city.jpg": "/static/media/city.b1f2a900ec1901adc216.jpg",
+    "static/media/network-man.jpg": "/static/media/network-man.30d216e74091208be66b.jpg",
+    "static/media/building.png": "/static/media/building.f058b113917b1342a8c6.png",
+    "static/media/island.png": "/static/media/island.a79eb577211910932780.png",
+    "static/media/btc.png": "/static/media/btc.a30705eea8f3bd2c0277.png",
+    "static/media/summer.jpg": "/static/media/summer.8e5be574425d8453985d.jpg",
+    "static/media/person-chair.png": "/static/media/person-chair.2effaf9562ead0ff9a13.png",
+    "static/media/hike.jpg": "/static/media/hike.cbe17092132bee03136d.jpg",
+    "static/media/lock.jpg": "/static/media/lock.50727b50f7b941c49eee.jpg",
+    "static/media/world-in-drop.jpg": "/static/media/world-in-drop.4e3cba894896458c3e33.jpg",
+    "static/media/network.jpg": "/static/media/network.b4d1c7ae463b9c0b7065.jpg",
+    "static/media/yellow-smoke.jpg": "/static/media/yellow-smoke.6697eba0d53c52f016cc.jpg",
+    "static/media/computer-security.jpg": "/static/media/computer-security.f0d0aaddd79ce0506bce.jpg",
+    "static/media/stocks.png": "/static/media/stocks.2c392d2a155d715edef3.png",
+    "static/media/flower-computer.png": "/static/media/flower-computer.dc05b61d741bd937d4af.png",
+    "static/media/email.png": "/static/media/email.836a5571b8c8837fef4d.png",
+    "static/media/artificial-intelligence.jpg": "/static/media/artificial-intelligence.e22fed8f833c1d5cb296.jpg",
+    "static/media/machine-learning.jpg": "/static/media/machine-learning.4cc75bfb8a73a37cf0c4.jpg",
+    "static/media/rocket.png": "/static/media/rocket.fa25d047758da2e4e952.png",
+    "static/media/sitting-computer.png": "/static/media/sitting-computer.1f828ed60fdaa3d1e419.png",
+    "static/media/laptop.png": "/static/media/laptop.39c4d9465ec42a785731.png",
+    "index.html": "/index.html",
+    "main.78cce67d.css.map": "/static/css/main.78cce67d.css.map",
+    "main.c6bf2523.js.map": "/static/js/main.c6bf2523.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78cce67d.css",
+    "static/js/main.c6bf2523.js"
+  ]
+}
